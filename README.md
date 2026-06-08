@@ -6,7 +6,7 @@ The player controls a WWII warship, manages the ship's ammo, and must target and
 
 ## How to Run
 After cloning the repository onto your machine, navigate to the main directory and run the following commands:
-source venv/bin/activate
+source venv/bin/activate \n
 python3 main.py
 
 ## Controls
@@ -14,8 +14,8 @@ python3 main.py
 | --- | ------ |
 | W / S | Forward / Reverse |
 | A / D | Left / Right |
-| &larr / &rarr | Rotate Turret |
-| &darr / &uarr | Raise / Lower Turret |
+| &larr; / &rarr; | Rotate Turret |
+| &darr; / &uarr; | Raise / Lower Turret |
 | T | Fire Torpedo (if equipped) |
 | click radar screen | select target |
 | Esc | Quit Game |
@@ -29,6 +29,6 @@ the optimal turret elevation angle to maximize the chance of hitting the target.
 waypoints and firing schedules, and difficulty can be controlled by adjusting the accuracy of the enemy's fire control systems.
 
 ## Requirements
-Python 3.11
+Python 3.11 \n
 pygame 2.6.1
 
